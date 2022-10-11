@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "deploy": "heroku builds:create -a quasaroo-backend",
+    "web-push": "web-push"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "busboy": "^0.3.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase-admin": "^8.13.0",
+    "nodemon": "^2.0.4",
+    "uuid-v4": "^0.1.0",
+    "web-push": "^3.4.4"
+  }
+}
